@@ -24,12 +24,7 @@ function Nastavení () {
 }
 let rychlost = 0
 Nastavení()
-jedRovne(200)
-otocDoprava(100)
-jedRovne(150)
-otocDoleva(100)
-jedRovne(100)
-otocDoleva(100)
-jedRovne(150)
-otocDoprava(100)
-jedRovne(200)
+for (let index = 0; index < 4; index++) {
+    jedRovne(200)
+    otocDoprava(100)
+}
